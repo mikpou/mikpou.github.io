@@ -5416,5 +5416,9 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+body {
+  background: black;
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=app.css.map */
