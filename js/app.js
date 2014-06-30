@@ -5,7 +5,7 @@ $(document).ready(function() {
 	
 	$("ul.posts li a.post-link").on('click', function(e) {
 		e.preventDefault();
-		$(this).siblings(".post-content").load($(this).attr("href"), ".post");
-		// return false;
+		var link = $(this).attr("href");
+		$(this).siblings(".post-content").load(link + " " + ".post");
 	});
 });
