@@ -6,13 +6,42 @@ body {
 }
 
 /* line 7, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
-header.site-header {
-  height: 500px;
+.header-row {
+  position: fixed;
+  z-index: 5;
+  max-width: none;
   background: white;
 }
-/* line 10, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+
+/* line 14, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.header-columns {
+  padding: 0px !important;
+}
+
+/* line 18, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+header.site-header {
+  height: 500px;
+  margin: 0 auto;
+  max-width: 62rem;
+}
+/* line 22, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 header.site-header h1 {
   font-size: 33x;
+}
+
+/* line 28, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.content-row {
+  background-color: #f2f2f2;
+  position: absolute;
+  z-index: 10;
+  top: 14em;
+  max-width: none;
+}
+
+/* line 36, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.posts {
+  max-width: 62rem;
+  margin: 0 auto;
 }
 
 /* Infinite spinner */
