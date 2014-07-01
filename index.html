@@ -1,19 +1,10 @@
 ---
 layout: index
 ---
-    
     <div class="row">
       <div class="large-12 columns">
-        <div class="panel">
-          <h1>Testing</h1>
-          <!-- <ul class="posts"> -->
           <div class="posts">
-            {% for post in site.posts limit: 4 %}
-              <!-- <li> -->
-                <!-- <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-                <p class="post-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-                <div class="post-content"></div> -->
+            {% for post in site.posts limit: 3 %}
                 <div class="post">
 
                   <header class="post-header">
@@ -29,19 +20,9 @@ layout: index
               <!-- </li> -->
             {% endfor %}
           <!-- </ul> -->
-          </div>
+          <!-- </div> -->
           <div class="infinite-spinner"></div>
-          <!-- <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div> -->
+
         </div>
       </div>
     </div>
