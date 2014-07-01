@@ -21,10 +21,7 @@ $(function() {
 	
   // Are we close to the end of the page? If we are, load more posts
   $(window).scroll(function(e){
-    console.log("Scrolling");
     if (!shouldFetchPosts || isFetchingPosts) return;
-
-    console.log("Scrolling2");
     
     var windowHeight = $(window).height(),
         windowScrollPosition = $(window).scrollTop(),

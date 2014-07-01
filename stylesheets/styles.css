@@ -43,6 +43,23 @@ header.site-header h1 {
   max-width: 62rem;
   margin: 0 auto;
 }
+/* line 40, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.posts .post {
+  border-bottom: 1px solid #dadada;
+}
+/* line 44, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.posts .top {
+  text-align: center;
+  margin-top: -9px;
+}
+/* line 48, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.posts .top .clickToTop {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 7px;
+  /* margin: 51px; */
+  background-color: whitesmoke;
+}
 
 /* Infinite spinner */
 /*.infinite-spinner {
