@@ -1,36 +1,37 @@
-/* line 1, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 4, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 body {
-  background: #f2f2f2;
   margin: 0;
   padding: 0;
+  background: #3a3435 url("/img/skyline-bg.png") repeat-x 0 127px;
+  background-attachment: fixed;
 }
 
-/* line 7, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 11, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .header-row {
   position: fixed;
   z-index: 5;
   max-width: none;
-  background: #3a3435 url("/img/skyline-bg.png") repeat-x 0% 100%;
+  background-color: transparent;
 }
 
-/* line 14, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 19, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .header-columns {
   padding: 0px !important;
 }
 
-/* line 18, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 23, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 header.site-header {
   height: 18.1em;
   margin: 0 auto;
   max-width: 62rem;
   text-align: center;
 }
-/* line 24, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 29, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 header.site-header img {
   margin-top: 25px;
 }
 
-/* line 30, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 35, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .content-row {
   background-color: #282425;
   position: absolute;
@@ -38,23 +39,28 @@ header.site-header img {
   top: 18.1em;
   max-width: none;
 }
-
-/* line 38, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
-.posts {
+/* line 43, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+.content-row .posts {
   max-width: 62rem;
   margin: 0 auto;
 }
-/* line 42, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
-.posts .post {
+/* line 47, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+.content-row .posts .post {
   border-bottom: 1px solid #dadada;
 }
-/* line 46, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
-.posts .top {
+/* line 51, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+.content-row .posts .break {
+  background-color: transparent;
+  z-index: 5;
+  height: 200px;
+}
+/* line 57, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+.content-row .posts .top {
   text-align: center;
   margin-top: -9px;
 }
-/* line 50, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
-.posts .top .clickToTop {
+/* line 61, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+.content-row .posts .top .clickToTop {
   border: 1px solid black;
   border-radius: 15px;
   padding: 5px 7px;

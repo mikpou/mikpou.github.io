@@ -1,12 +1,12 @@
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
-$(document).foundation();
+// $(document).foundation();
 $(document).ready(function() {
-	
-	// $("ul.posts li a.post-link").on('click', function(e) {
-	// 	e.preventDefault();
-	// 	var link = $(this).attr("href");
-	// 	$(this).siblings("p.post-excerpt").remove();
-	// 	$(this).siblings(".post-content").load(link + " " + "article");
-	// });
+	$(document).on("scroll", function(){
+		yPos = $(this).scrollTop();
+		var logo = $(".header-row img");
+		// if (logo.css('opacity') > 0) {
+			logo.css({'opacity': (1 - yPos/240) });
+		// }
+	});
 });
