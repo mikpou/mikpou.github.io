@@ -1,58 +1,59 @@
-/* line 1, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 1, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 body {
   background: #f2f2f2;
   margin: 0;
   padding: 0;
 }
 
-/* line 7, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 7, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .header-row {
   position: fixed;
   z-index: 5;
   max-width: none;
-  background: white;
+  background: #3a3435 url("/img/skyline-bg.png") repeat-x 0% 100%;
 }
 
-/* line 14, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 14, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .header-columns {
   padding: 0px !important;
 }
 
-/* line 18, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 18, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 header.site-header {
-  height: 500px;
+  height: 18.1em;
   margin: 0 auto;
   max-width: 62rem;
+  text-align: center;
 }
-/* line 22, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
-header.site-header h1 {
-  font-size: 33x;
+/* line 24, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+header.site-header img {
+  margin-top: 25px;
 }
 
-/* line 28, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 30, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .content-row {
-  background-color: #f2f2f2;
+  background-color: #282425;
   position: absolute;
   z-index: 10;
-  top: 14em;
+  top: 18.1em;
   max-width: none;
 }
 
-/* line 36, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 38, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .posts {
   max-width: 62rem;
   margin: 0 auto;
 }
-/* line 40, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 42, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .posts .post {
   border-bottom: 1px solid #dadada;
 }
-/* line 44, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 46, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .posts .top {
   text-align: center;
   margin-top: -9px;
 }
-/* line 48, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+/* line 50, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
 .posts .top .clickToTop {
   border: 1px solid black;
   border-radius: 15px;
