@@ -1,0 +1,11 @@
+@media screen and (max-width: 1025px) {
+  /* line 4, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  .header-row .header-columns header.site-header {
+    height: 1.1em;
+  }
+
+  /* line 10, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  .content-row {
+    top: 9.2em;
+  }
+}

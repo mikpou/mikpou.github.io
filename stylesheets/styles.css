@@ -1,37 +1,47 @@
-/* line 4, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 1, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 body {
   margin: 0;
   padding: 0;
-  background: #3a3435 url("/img/skyline-bg.png") repeat-x 0 127px;
-  background-attachment: fixed;
+}
+/* line 5, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+body h1 {
+  color: #CFCFCF;
+}
+/* line 9, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+body p {
+  line-height: 30px;
+  color: #DDDDDD;
 }
 
-/* line 11, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 15, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .header-row {
   position: fixed;
   z-index: 5;
   max-width: none;
-  background-color: transparent;
+  background: #3a3433 url("/img/skyline-bg.png") repeat-x 0px 178px;
+  background-size: 80%;
+  text-align: center;
 }
 
-/* line 19, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 24, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .header-columns {
   padding: 0px !important;
 }
+/* line 26, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.header-columns img {
+  z-index: 5;
+  margin-top: 35px;
+}
 
-/* line 23, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 32, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 header.site-header {
   height: 18.1em;
   margin: 0 auto;
   max-width: 62rem;
   text-align: center;
 }
-/* line 29, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
-header.site-header img {
-  margin-top: 25px;
-}
 
-/* line 35, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 40, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .content-row {
   background-color: #282425;
   position: absolute;
@@ -39,33 +49,41 @@ header.site-header img {
   top: 18.1em;
   max-width: none;
 }
-/* line 43, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 48, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .content-row .posts {
   max-width: 62rem;
   margin: 0 auto;
+  margin-top: 1.5em;
 }
-/* line 47, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 53, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .content-row .posts .post {
-  border-bottom: 1px solid #dadada;
+  margin-top: 3em;
 }
-/* line 51, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
-.content-row .posts .break {
-  background-color: transparent;
-  z-index: 5;
-  height: 200px;
+/* line 56, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.content-row .posts .post .post-content {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.39);
+  padding-bottom: 2.5em;
 }
-/* line 57, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 63, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .content-row .posts .top {
   text-align: center;
   margin-top: -9px;
 }
-/* line 61, /Users/mikkop/Documents/Duuni/Dobranoc/stylesheets/styles.scss */
+/* line 67, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .content-row .posts .top .clickToTop {
   border: 1px solid black;
   border-radius: 15px;
-  padding: 5px 7px;
+  padding: 7px 21px;
   /* margin: 51px; */
+  color: #8B8B8B;
   background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+/* line 76, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
+.content-row .posts .top .clickToTop:hover {
+  border-color: #303030;
+  color: #CFCFCF;
+  background-color: #3a3a3a;
 }
 
 /* Infinite spinner */
@@ -99,3 +117,14 @@ header.site-header img {
     opacity: 0;
   }
 }*/
+@media screen and (max-width: 1025px) {
+  /* line 4, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  .header-row .header-columns header.site-header {
+    height: 1.1em;
+  }
+
+  /* line 10, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  .content-row {
+    top: 9.2em;
+  }
+}
