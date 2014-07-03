@@ -5,9 +5,9 @@ layout: index
       <div class="large-12 columns">
           <div class="posts">
             {% for post in site.posts limit: 3 %}
-                <div class="post">
+                <div class="post stickyContainer">
 
-                  <header class="post-header">
+                  <header class="post-header stickyHeader">
                     
                     <p class="meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
                     
