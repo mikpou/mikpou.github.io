@@ -10,5 +10,12 @@ $(document).ready(function() {
 			yPos = $(this).scrollTop();
 			logo.css({'opacity': (1 - yPos/240)});		
 		});
-	}	
+	}
+
+	$("body").on("click", ".clickToTop", function () {
+		var prevAnchor = $(this).closest(".top").prev(".post").find(".post-header a");
+		console.log(prevAnchor);
+		$("html, body").animate({ scrollTop: prevAnchor.offset().top}, 600);
+		return false;
+	});
 });

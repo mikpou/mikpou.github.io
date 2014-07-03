@@ -9,9 +9,11 @@ layout: index
 
                   <header class="post-header">
                     
-                    <h1>{{ post.title }}</h1>
-
                     <p class="meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+                    
+                    <h1><a href="#{{ post.id }}">{{ post.title }}</a></h1>
+
+                    
 
                     
                     

@@ -145,7 +145,7 @@ header.site-header {
   }
   /* line 18, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   .content-row .posts .post {
-    margin: 0px 20px;
+    margin: 0px 5px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -157,7 +157,7 @@ header.site-header {
   }
   /* line 35, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body p {
-    font-size: 125%;
+    font-size: 105%;
   }
   /* line 39, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body .header-row {
