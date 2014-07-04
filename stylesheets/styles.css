@@ -22,16 +22,16 @@ body p {
 
 /* line 28, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .container {
-  min-height: 100%;
-  position: relative;
+  /*min-height: 100%;
+  position: relative;*/
 }
 /* line 32, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
 .container .header-row {
   position: fixed;
   z-index: 5;
   max-width: none;
-  background: #3a3433 url("/img/skyline-bg.png") repeat-x 0px 178px;
-  background-size: 80%;
+  background: #3a3433 url("/img/skyline-bg.png") repeat-x 0% 58%;
+  background-size: 100%;
   text-align: center;
 }
 /* line 41, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/styles.scss */
@@ -171,45 +171,64 @@ body p {
     opacity: 0;
   }
 }*/
-@media screen and (max-width: 1025px) {
-  /* line 8, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+@media screen and (max-width: 1024px) {
+  /* line 6, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  body .container .header-row {
+    background: #3a3433 url("/img/skyline-bg.png") repeat-x 0% 63%;
+    background-size: 100%;
+  }
+  /* line 12, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body .container .header-row .header-columns header.site-header {
     /*height: 1.1em;*/
   }
-  /* line 14, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
-  body .container .content-row {
-    top: 9.1em;
-  }
   /* line 18, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  body .container .content-row {
+    /*top: 9.1em;*/
+  }
+  /* line 22, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body .container .content-row .posts .post {
+    /*margin: 0px 5px;*/
+  }
+  /* line 24, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  body .container .content-row .posts .post .post-header {
+    margin: 0px 5px 20px 5px;
+  }
+  /* line 28, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  body .container .content-row .posts .post .post-content {
     margin: 0px 5px;
   }
 }
+@media screen and (max-width: 640px) {
+  /* line 44, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  body .container .content-row {
+    top: 9.1em;
+  }
+}
 @media screen and (max-width: 480px) {
-  /* line 33, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  /* line 57, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body h1 {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
   }
-  /* line 39, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  /* line 63, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body p {
     font-size: 105%;
   }
-  /* line 43, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  /* line 67, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body .header-row {
     position: absolute;
   }
-  /* line 46, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  /* line 70, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body .header-row .site-header {
     /*height: 1.5em;*/
   }
-  /* line 50, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  /* line 74, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body .header-row img {
     width: 70%;
     margin-top: 25px;
   }
-  /* line 56, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
+  /* line 80, /Users/mikkop/Documents/Proj/personal/dobranoc/stylesheets/media.scss */
   body .content-row {
     top: 6.9em;
   }
