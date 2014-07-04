@@ -12,8 +12,8 @@ $(document).ready(function() {
 		});
 	}
 
-	$("body, .post").on("click", ".clickToTop", function () {
-		var prevAnchor = $(this).closest(".top").prevAll(".post").find(".post-header a");
+	$(document).on("click", ".clickToTop", function () {
+		var prevAnchor = $(this).closest(".top").prev(".post").find(".post-header a");
 		console.log(prevAnchor);
 		$("html, body").animate({ scrollTop: prevAnchor.offset().top}, 600);
 		return false;
