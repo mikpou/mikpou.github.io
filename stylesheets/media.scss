@@ -1,0 +1,106 @@
+@media screen and (max-width: 1024px) {
+  body {
+      .container {
+        .header-row {
+          background: #3a3433 url("/img/skyline-bg.png") repeat-x 0% 61%;
+          background-size: 100%;
+          
+          .header-columns {
+            /*height: 1.1em;*/
+             header.site-header {
+
+             }
+          }
+
+        }
+
+        .content-row {
+          /*top: 9.1em;*/
+          .posts {
+             .post {
+              /*margin: 0px 5px;*/
+                .post-header {
+                margin: 0px 5px 20px 5px;
+              }
+
+              .post-content {
+                margin: 0px 5px;
+              }
+            }
+          }
+        } 
+      }
+    }
+}  
+
+@media screen and (max-width: 640px) {
+  body { 
+    .container {
+     .header-row {
+       background: #3a3433 url("/img/skyline-bg.png") repeat-x 0px 157px;
+       background-size: 100%;
+
+       h1 {
+
+          font-size: 3em;
+
+          img {
+            width: 35px;
+            height: 31px;
+            margin-left: 2px;
+          }
+       }
+     }
+     .content-row {
+        top: 13.1em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    p {
+      font-size: 105%;
+    }
+
+    .container {
+      .header-row {
+        position: absolute;
+        background: #3a3433 url("/img/skyline-bg.png") repeat-x 0px 166px;
+        background-size: 100%;
+
+        .site-header {
+          /*height: 1.5em;*/
+        }
+      }
+
+      .content-row {
+        top: 13.1em;
+      } 
+    }
+
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  body {
+     .container {
+       .header-row {
+        position: absolute;
+        background: #3a3433 url("/img/skyline-bg.png") repeat-x 0px 103px;
+        background-size: 100%;
+        }
+      .content-row {
+        top: 8.5em;
+      }
+    }
+  }
+}

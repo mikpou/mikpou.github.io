@@ -3,7 +3,7 @@
 // $(document).foundation();
 $(document).ready(function() {
 	var yPos;
-	var logo = $(".header-row img");
+	var logo = $(".header-row .title");
 	var documentW = $(document).width();
 	if (documentW > 1024) {
 		$(document).on("scroll touchmove", function(){
