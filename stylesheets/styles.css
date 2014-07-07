@@ -1,10 +1,10 @@
-/* line 4, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 7, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 body {
   margin: 0;
   padding: 0;
   font-size: medium;
 }
-/* line 9, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 12, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 body p {
   line-height: 30px;
   font-size: 17px;
@@ -15,7 +15,7 @@ body p {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 22, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 25, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .header-row {
   position: fixed;
   z-index: 5;
@@ -24,30 +24,30 @@ body p {
   background-size: 100%;
   text-align: center;
 }
-/* line 31, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 34, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .header-columns {
   padding: 0px !important;
 }
-/* line 34, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 37, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .header-columns h1 {
   padding-top: 0.5em;
   font-size: 4.4em;
   font-weight: 500;
   color: #e9e7e7;
 }
-/* line 39, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 42, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .header-columns h1 img {
   z-index: 5;
   /*width: 6%;*/
 }
-/* line 46, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 49, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container header.site-header {
   height: 18.1em;
   margin: 0 auto;
   max-width: 62rem;
   text-align: center;
 }
-/* line 53, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 56, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row {
   background-color: #cfc9c9;
   position: absolute;
@@ -56,29 +56,29 @@ body p {
   max-width: none;
   padding-bottom: 90px;
 }
-/* line 61, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 64, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row h1 {
   color: black;
   text-align: center;
 }
-/* line 66, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 69, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts {
   max-width: 62rem;
   margin: 0 auto;
   margin-top: 1.5em;
 }
-/* line 71, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 74, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .post {
   max-width: 48em;
   margin-top: 3em;
   margin: 0 auto;
 }
-/* line 76, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 79, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .post .post-header {
   margin-bottom: 20px;
   border-bottom: 1px dotted;
 }
-/* line 80, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 83, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .post .post-header.stuck {
   position: fixed;
   top: 0;
@@ -86,30 +86,30 @@ body p {
   width: 100%;
   max-width: 48em;
 }
-/* line 88, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 91, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .post .post-header h1 a {
   color: black;
   text-transform: uppercase;
   font-size: 90%;
 }
-/* line 94, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 97, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .post .post-header p.meta {
   color: #686868;
   font-size: 18px;
   text-align: center;
 }
-/* line 102, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 105, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .post .post-content {
   border-bottom: 1px solid rgba(141, 140, 140, 0.7);
   padding-bottom: 2.5em;
 }
-/* line 109, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 112, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .top {
   text-align: center;
   margin-top: -9px;
   padding-bottom: 35px;
 }
-/* line 114, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 117, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .top .clickToTop {
   border: 1px solid black;
   border-radius: 15px;
@@ -119,19 +119,19 @@ body p {
   background-color: whitesmoke;
   border-color: whitesmoke;
 }
-/* line 123, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 126, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts .top .clickToTop:hover {
   border-color: #303030;
   color: #CFCFCF;
-  background-color: #3a3a3a;
+  background-color: #3a3433;
 }
-/* line 131, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 134, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .content-row .posts p.postsep {
   text-align: center;
   padding: 60px 0px;
   font-size: 1.7em;
 }
-/* line 141, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 144, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .footer-row {
   width: 100%;
   height: 80px;
@@ -142,7 +142,7 @@ body p {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 151, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
+/* line 154, /Users/mikkop/Documents/Duuni/dobranoc/stylesheets/styles.scss */
 .container .footer-row .site-footer {
   max-width: 48em;
   border-top: 1px dotted;
