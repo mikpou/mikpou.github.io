@@ -1,8 +1,11 @@
+@import "variables";
+
+
 @media screen and (max-width: 1024px) {
   body {
       .container {
         .header-row {
-          background: #3a3433 url("/img/skyline-bg.png") repeat-x 0% 61%;
+          background: $body-background url("/img/skyline-bg.png") repeat-x 0% 61%;
           background-size: 100%;
           
           .header-columns {
@@ -37,7 +40,8 @@
   body { 
     .container {
      .header-row {
-       background: #3a3433 url("/img/skyline-bg.png") repeat-x 0px 157px;
+     	position: absolute;
+       background: $body-background url("/img/skyline-bg.png") repeat-x 0px 157px;
        background-size: 100%;
 
        h1 {
@@ -74,7 +78,7 @@
     .container {
       .header-row {
         position: absolute;
-        background: #3a3433 url("/img/skyline-bg.png") repeat-x 0px 166px;
+        background: $body-background url("/img/skyline-bg.png") repeat-x 0px 166px;
         background-size: 100%;
 
         .site-header {

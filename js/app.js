@@ -8,7 +8,12 @@ $(document).ready(function() {
 	if (documentW > 1024) {
 		$(document).on("scroll touchmove", function(){
 			yPos = $(this).scrollTop();
-			logo.css({'opacity': (1 - yPos/240)});		
+			logo.css({'opacity': (1 - yPos/180)});		
+
+			// if (yPos >= 163) {
+			// 	console.log("Here");
+			// }
+
 		});
 	}
 
